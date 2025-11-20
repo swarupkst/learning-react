@@ -1,12 +1,9 @@
-import Section1 from './mini project/Section1'
-import Page1Content from './mini project/Page1Content'
+import React from 'react'
+import Function from './function/function'
 
 const App = () => {
   return (
-    <div>
-      <Section1 />
-      <Page1Content />
-    </div>
+    <Function />
   )
 }
 
