@@ -1,27 +1,13 @@
-import Amazon from './components/amazon';
-import jobs from './components/data';
+import Section1 from './mini project/Section1'
+import Page1Content from './mini project/Page1Content'
 
-const App = (some) => {
-
-  
-
-
+const App = () => {
   return (
-    <div className='parent'>
-      {jobs.map(function(some,idx){
-        return<div key={idx}> <Amazon  
-        company={some.companyName} 
-        post={some.post} 
-        location={some.location} 
-        pay={some.pay} 
-        date={some.datePosted} 
-        tag1={some.tag1} 
-        level={some.tag2} 
-        img={some.brandLogo}/>
-        </div>
-      })}
+    <div>
+      <Section1 />
+      <Page1Content />
     </div>
   )
 }
 
-export default App;
+export default App
