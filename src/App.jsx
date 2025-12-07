@@ -1,9 +1,13 @@
-import React from 'react'
-import Function from './function/function'
+import Hook from "./hooks/Hook"
+import Statemanage from "./hooks/Statemanage"
+
 
 const App = () => {
   return (
-    <Function />
+    <div>
+    <Hook />
+    <Statemanage />
+    </div>
   )
 }
 
