@@ -1,12 +1,10 @@
-import Hook from "./hooks/Hook"
-import Statemanage from "./hooks/Statemanage"
+import Form from "./form-handling/Form"
 
 
 const App = () => {
   return (
     <div>
-    <Hook />
-    <Statemanage />
+      <Form />
     </div>
   )
 }
