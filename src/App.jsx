@@ -1,11 +1,10 @@
-
-import Note from "./note-app project/Note"
+import Storage from "./storage/storage"
 
 
 const App = () => {
   return (
     <div>
-      <Note />
+      <Storage />
     </div>
   )
 }
