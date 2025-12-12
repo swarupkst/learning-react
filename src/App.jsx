@@ -1,10 +1,11 @@
-import Form from "./form-handling/Form"
+
+import Note from "./note-app project/Note"
 
 
 const App = () => {
   return (
     <div>
-      <Form />
+      <Note />
     </div>
   )
 }
