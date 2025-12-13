@@ -1,10 +1,10 @@
-import Storage from "./storage/storage"
+import Api from "./api-call/api"
 
 
 const App = () => {
   return (
     <div>
-      <Storage />
+      <Api />
     </div>
   )
 }
